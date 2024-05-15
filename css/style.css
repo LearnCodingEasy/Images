@@ -1,0 +1,34 @@
+body{
+  overflow: hidden;
+  position: relative;
+}
+.wrraper{}
+.wrraper .inner{
+  
+}
+.wrraper .inner .box{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+.wrraper .inner .box h2{}
+.wrraper .inner .box .item{
+  border: 0.1rem solid #999;
+  margin: 0 0.5rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+.wrraper .inner .box .item img{
+  max-width: 100%;
+  padding-bottom: 1rem;
+}
+.wrraper .inner .box .item span{
+  display: block;
+  border: 0.1rem solid #f2f2f2;
+  padding: 0.5rem;
+  margin: 0 auto;
+  text-align: center;
+}

@@ -9,8 +9,14 @@ body{
 .wrraper .inner .box{
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  width: 100%;
+  margin-top: 2.5rem;
+  
 }
-.wrraper .inner .box h2{}
+.wrraper .inner .box h2{
+  display: flex;
+  align-items: center;
+}
 .wrraper .inner .box .item{
   border: 0.1rem solid #999;
   margin: 0 0.5rem;

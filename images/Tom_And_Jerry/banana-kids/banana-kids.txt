@@ -1,0 +1,41 @@
+- banana-kids
+
+- cover
+
+- product_1
+- product_1_1
+- product_1_2
+- product_1_3
+- product_1_4
+- product_1_5
+
+- product_2
+- product_2_1
+- product_2_2
+- product_2_3
+- product_2_4
+- product_2_5
+
+
+- product_3
+- product_3_1
+- product_3_2
+- product_3_3
+- product_3_4
+- product_3_5
+
+
+- product_4
+- product_4_1
+- product_4_2
+- product_4_3
+- product_4_4
+- product_4_5
+
+
+- product_5
+- product_5_1
+- product_5_2
+- product_5_3
+- product_5_4
+- product_5_5

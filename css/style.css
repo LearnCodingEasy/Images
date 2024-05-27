@@ -1,24 +1,44 @@
-body{
-  overflow: hidden;
-  position: relative;
+*,
+::after,
+::before {
+  box-sizing: border-box;
 }
-.wrraper{}
-.wrraper .inner{
+
+body{
+  overflow-x: hidden;
+  position: relative;
+  margin: 1rem;
+}
+.wrapper{
+  width: 100%;
+  overflow: hidden;
+}
+.wrapper .inner{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   
 }
-.wrraper .inner .box{
+.wrapper .inner .box{
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   width: 100%;
   margin-top: 2.5rem;
-  
+  box-shadow: 0px 10px 20px rgb(200, 200, 200);
+  border: 3px solid rgba(200, 200, 200, 0.399);
+  padding: 2rem 1rem;
+  border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -ms-border-radius: 1rem;
+  -o-border-radius: 1rem;
 }
-.wrraper .inner .box h2{
+.wrapper .inner .box h2{
   display: flex;
   align-items: center;
 }
-.wrraper .inner .box .item{
-  border: 0.1rem solid #999;
+.wrapper .inner .box .item{
+  border: 0.1rem solid #9999995a;
   margin: 0 0.5rem;
   padding: 1rem;
   border-radius: 0.5rem;
@@ -27,11 +47,11 @@ body{
   -ms-border-radius: 0.5rem;
   -o-border-radius: 0.5rem;
 }
-.wrraper .inner .box .item img{
+.wrapper .inner .box .item img{
   max-width: 100%;
   padding-bottom: 1rem;
 }
-.wrraper .inner .box .item span{
+.wrapper .inner .box .item span{
   display: block;
   border: 0.1rem solid #999;
   padding: 0.5rem;
